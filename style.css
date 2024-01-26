@@ -70,7 +70,6 @@ input {
   border-radius: 50px;
   width: 400px;
   height:40px;
- ;
 }
 
 button {
@@ -80,4 +79,23 @@ button {
   width: 80px;
   padding: 8px;
   border-radius: 40px;
+}
+
+.hidden {
+  padding: 9px;
+  color: hsl(0, 93%, 68%) ;
+  display: none;
+}
+
+.confirmation-hidden {
+  display: none;
+  /* position: absolute;
+  left: 0;
+  margin-left: 250px; */
+}
+
+.confirmation-hidden > h1 {
+  position: absolute;
+  left: 0;
+  margin-left: 250px;
 }
